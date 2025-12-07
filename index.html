@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,84 +8,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header / Hero Section -->
-    <header>
-        <div class="container">
-            <h1>Andres Avila</h1>
-            <p>Electrical & Mechatronics Engineer | Aerospace R&D | Founder of SWORT</p>
-            <div class="contact-links">
-                <a href="https://github.com/andrefp-co" target="_blank">GitHub</a>
-                <a href="https://www.swort.org" target="_blank">SWORT</a>
-                <a href="mailto:apenaavi@purdue.edu">Email</a>
+
+<!-- Hero Section -->
+<header id="hero">
+    <div class="container">
+        <h1>Andres Avila</h1>
+        <p>Electrical & Mechatronics Engineer | Aerospace R&D | Founder of SWORT</p>
+        <div class="links">
+            <a href="https://github.com/andrefp-co" target="_blank">GitHub</a>
+            <a href="https://www.swort.org" target="_blank">SWORT</a>
+            <a href="mailto:apenaavi@purdue.edu">Email</a>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am an Electrical & Mechatronics Engineer at Purdue University – N.W, specializing in Aerospace R&D. I combine technical expertise with leadership experience from leading SWORT and high-performance engineering projects in PSP and ASME.</p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets/astra.png" alt="ASTRA project">
+                <h3>ASTRA - Aerial Stabilization</h3>
+                <p>Embedded firmware development in C/C++ for avionics and flight control modules. Designed circuitry, assisted in GNC testing.</p>
+                <a href="https://purdueseds.space/astra/" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/shell.png" alt="Shell Eco-Marathon project">
+                <h3>Shell Eco-Marathon - Hydraulic & Aerodynamics</h3>
+                <p>Hydraulic brake system design in SolidWorks, wind tunnel simulations, cross-disciplinary integration, reducing stopping distance by 12%.</p>
+                <a href="https://asmepnw.com" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/swort.png" alt="SWORT project">
+                <h3>SWORT Startup</h3>
+                <p>Directed product development, systems design, and rapid prototyping using Arduino, Python, and Linux. Managed digital operations and strategic planning.</p>
+                <a href="https://www.swort.org" target="_blank">Visit SWORT</a>
             </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am an Electrical & Mechatronics Engineer at Purdue University – N.W, specializing in Aerospace R&D. I combine technical expertise with leadership experience from leading SWORT and high-performance engineering projects in PSP and ASME.</p>
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <span>Python</span>
+            <div class="bar"><div style="width:90%"></div></div>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>ASTRA - Aerial Stabilization</h3>
-                    <p>Embedded firmware development in C/C++ for avionics and flight control modules. Designed and analyzed circuitry, assisted in GNC testing.</p>
-                    <a href="https://purdueseds.space/astra/" target="_blank">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>Shell Eco-Marathon - Hydraulic & Aerodynamics</h3>
-                    <p>Hydraulic brake system design in SolidWorks, wind tunnel simulations, cross-disciplinary integration, reducing stopping distance by 12%.</p>
-                    <a href="https://asmepnw.com" target="_blank">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>SWORT Startup</h3>
-                    <p>Directed product development, systems design, and rapid prototyping using Arduino, Python, and Linux. Managed digital operations and strategic planning.</p>
-                    <a href="https://www.swort.org" target="_blank">Visit SWORT</a>
-                </div>
-            </div>
+        <div class="skill-bar">
+            <span>C/C++</span>
+            <div class="bar"><div style="width:85%"></div></div>
         </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <ul class="skills-list">
-                <li>Python, C/C++, MicroPython, JavaScript, HTML/CSS</li>
-                <li>Arduino, ESP32, Raspberry Pi, PCB Design, LTSpice</li>
-                <li>SolidWorks, Fusion 360, Onshape, MATLAB</li>
-                <li>Excel Automation, Data Visualization, APIs</li>
-            </ul>
+        <div class="skill-bar">
+            <span>Arduino / Microcontrollers</span>
+            <div class="bar"><div style="width:95%"></div></div>
         </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p><a href="assets/AndresAvila_Resume.pdf" target="_blank">Download PDF</a></p>
+        <div class="skill-bar">
+            <span>SolidWorks / CAD</span>
+            <div class="bar"><div style="width:80%"></div></div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:apenaavi@purdue.edu">apenaavi@purdue.edu</a></p>
-            <p>GitHub: <a href="https://github.com/andrefp-co" target="_blank">github.com/andrefp-co</a></p>
-            <p>Website: <a href="https://www.swort.org" target="_blank">www.swort.org</a></p>
-        </div>
-    </section>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:apenaavi@purdue.edu">apenaavi@purdue.edu</a></p>
+        <p>GitHub: <a href="https://github.com/andrefp-co" target="_blank">github.com/andrefp-co</a></p>
+        <p>Website: <a href="https://www.swort.org" target="_blank">www.swort.org</a></p>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2025 Andres Avila</p>
-    </footer>
+<footer>
+    <p>© 2025 Andres Avila</p>
+</footer>
+
 </body>
 </html>
+
